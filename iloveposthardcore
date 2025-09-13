@@ -8,8 +8,8 @@
 </head>
 
 <div class="loader">
-    <div class="emoji"><img src="https://64.media.tumblr.com/ef12425a534d978b88fad3c0ee586fe7/1fb6a6ebbc7d543e-fc/s400x600/e1bf262cd949aa18fb74f97dc6c31b12c26e4745.gifv"/>
-     <div class="background-image">
+    <div class="emoji"><img src="https://64.media.tumblr.com/ef12425a534d978b88fad3c0ee586fe7/1fb6a6ebbc7d543e-fc/s400x600/e1bf262cd949aa18fb74f97dc6c31b12c26e4745.gifv"/></div>
+     <div class="background-image"></div>
     <div class="loading-text">I love Post Hardcore
     <div class="progress w-75 mx-auto">
       <div id="progressBar" 
@@ -17,6 +17,7 @@
            role="progressbar" style="width: 0%">0%</div>
     </div>
   </div>
+</div>
   
   <Script>
   let progress = 0;
