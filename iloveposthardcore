@@ -9,8 +9,7 @@
 
 <div class="loader">
     <div class="emoji"><img src="https://64.media.tumblr.com/ef12425a534d978b88fad3c0ee586fe7/1fb6a6ebbc7d543e-fc/s400x600/e1bf262cd949aa18fb74f97dc6c31b12c26e4745.gifv"/>
-     <div style="background-image://64.media.tumblr.com/18423add0998e6f846f859b9756038c6/c01d48ff4a087667-74/s400x600/a1bba3d105fd668dbc77c624539da048537e67ba.gifv
-        </div>
+     <div class="background-image">
     <div class="loading-text">I love Post Hardcore
     <div class="progress w-75 mx-auto">
       <div id="progressBar" 
