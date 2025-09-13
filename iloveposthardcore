@@ -19,7 +19,7 @@
   </div>
 </div>
   
-  <Script>
+<script>
   let progress = 0;
     const progressBar = document.getElementById("progressBar");
     const duration = 15000; 
@@ -34,9 +34,9 @@ const timer = setInterval(() => {
         window.location.href = "home.html"; }
       progressBar.style.width = progress + "%";
       progressBar.innerText = Math.floor(progress) + "%";  }, interval);
-</Script>
+</script>
 
-<Style>
+<style>
 body {
       height: 100vh;
       display: flex;
