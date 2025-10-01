@@ -176,6 +176,17 @@
         box-shadow: -2px 5px 9px #F2F2F2;
         display: inline-block;
         }
+
+        @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);
+        transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;
+        top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;
+       -webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;
+        animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}
+        .snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;
+        -webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;
+        animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}
+        .snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;
+        -webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
      
     </style>
 </head>
@@ -408,6 +419,17 @@
     <div style="float:  ; max-height: 200px; position: fixed; right: 10px; top: 6px; z-index: 300;">
         <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6db176ea-43fc-419e-b786-5bb3ee833976/dfsuidv-f361029c-28de-4513-8027-5f40cefc2041.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZkYjE3NmVhLTQzZmMtNDE5ZS1iNzg2LTViYjNlZTgzMzk3NlwvZGZzdWlkdi1mMzYxMDI5Yy0yOGRlLTQ1MTMtODAyNy01ZjQwY2VmYzIwNDEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.rOaby85vduQbVrm777A1EzZwKmy6L_NpBYE0hpFHF74" height="360" />
     </div>
+
+    <div class="snowflakes">
+<div class="snowflake"><img src="https://media.tenor.com/fU-lYcf2_UQAAAAi/bat.gif"/></div>
+<div class="snowflake"><img src="https://media.tenor.com/fU-lYcf2_UQAAAAi/bat.gif"/></div>
+<div class="snowflake"><img src="https://media.tenor.com/fU-lYcf2_UQAAAAi/bat.gif"/></div>
+<div class="snowflake"><img src="https://media.tenor.com/fU-lYcf2_UQAAAAi/bat.gif"/></div>
+<div class="snowflake"><img src="https://media.tenor.com/fU-lYcf2_UQAAAAi/bat.gif"/></div>
+<div class="snowflake"><img src="https://media.tenor.com/fU-lYcf2_UQAAAAi/bat.gif"/></div>
+<div class="snowflake"><img src="https://media.tenor.com/fU-lYcf2_UQAAAAi/bat.gif"/></div>
+<div class="snowflake"><img src="https://media.tenor.com/fU-lYcf2_UQAAAAi/bat.gif"/></div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
